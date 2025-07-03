@@ -5,7 +5,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #1F1C2C;
+    background-color: #111111;
+    ;
 }
 
 li, a, button {
@@ -18,7 +19,7 @@ li, a, button {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     padding: 30px 10%;
 }
@@ -26,8 +27,8 @@ header {
 .header__logo {
     color: white;
     cursor: pointer;
+    margin-right: auto;
 }
-
 
 .nav__links {
     list-style: none;
@@ -47,6 +48,7 @@ header {
 }
 
 button {
+    margin-left: 20px;
     padding: 9px 25px;
     background-color: rgba(0, 136, 169, 1);
     color: whitesmoke;
